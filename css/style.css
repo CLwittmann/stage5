@@ -1,0 +1,503 @@
+@charset "UTF-8";
+
+/* CSS Document written by Cheryl Wittmann */
+
+ 
+ body {
+ 	width: 1200px;
+	background-color: #000000;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: Arial, Helvetica, Gotham, "Helvetica Neue", "sans-serif";
+    color: #ffffff;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-size: 2.1em;
+	color:#f7ba77;
+	text-align: center;
+}
+
+/** Main container starts here **/
+
+#container{
+	width:  80%;
+	margin:0 auto;
+}
+
+/** Header css starts here **/
+
+header{
+	height:150px;
+	width: 100%;
+	padding-top:20px;
+}
+
+#logo{
+	
+	width: 47.8723%;
+	margin-right:30px;
+	float: left;
+}
+
+ #banner{
+	 height: 50px;
+	 width: 20.8333%;
+	 
+}
+
+/** Main Navigation css **/
+
+nav{
+	height:40px;
+	width: 100%;
+}
+
+nav ul li{
+	display:inline;
+	padding-right:20px;
+}
+
+nav a{
+	color:#fefefe;
+	text-decoration: none;
+	 
+	
+}
+nav ul{
+	margin-left:-40px;
+	
+}
+
+
+/** Main image css **/
+.camera_wrap {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#myOverlay {
+
+  color: #ffffff;
+  background-color: rgba(12,12,12,0.82);
+  padding: 20px;
+  position: absolute;
+  top: 10px;
+}
+
+ /* Clearfix */      
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/** Wrapper for the columns **/
+ 
+#wrapper{
+	
+	height: 400px;
+	width: 100%;
+	margin-bottom: 100px;
+	clear:both;
+}
+
+#wrapper h2{
+	 text-align: center;
+	 color:#f7ba77;
+
+}
+
+.col{ 
+    width: 30.2083%;
+	float: left;
+	margin: 10px;
+
+	  
+}
+
+ .col a {
+
+	color: #f7ba77;
+	text-decoration: none;
+}
+
+
+.col h2{
+	 text-align: center;
+	 color:#f7ba77;
+}
+
+.col h5{
+	text-align: right;
+	color: #f7ba77;
+
+}
+
+.col p{
+	padding: 4px;
+	text-align: left;
+	font-size: 12pt;
+	color:#ffffff;
+}
+
+.col a{
+	float: right;
+	font-color: #f7ba77;
+}
+
+
+/** about columns wrapper css begins here **/
+
+#col-wrapper{ 
+    width: 100%;
+	float: left;
+	margin: 14 14 1 0px;
+	 
+
+}
+
+#col-wrapper a {
+
+	color: #f7ba77;
+	text-decoration: none;
+}
+
+
+#col-wrapper h2{
+	 text-align: left;
+	 color:#f7ba77;
+	 clear: both;
+}
+
+ /** About page column copy div css begins here **/
+
+#column-copy {
+	width: 50%;
+	float: right;
+	margin: 0 auto;
+	 
+}
+
+#column-copy h5{
+	text-align: right;
+	color: #f7ba77;
+	}
+
+#column-copy p{
+	 
+	text-align: left;
+	font-size: 1em;
+	color:#ffffff;
+	padding: 2px;
+}
+
+#column-copy a{
+	float: right;
+	overflow: none;
+	font-color: #f7ba77;
+}
+
+#column-copy img {
+    align-content: center;
+	display: block;
+	margin-bottom: 20PX;
+	padding: 8px;
+	 
+}
+
+ 
+ #map {
+    height: 400px;   
+    width: 99%; 
+    margin: 0 0 12px 3px;
+    clear: both;  
+   }
+
+/* Gallery page CSS */
+
+section {
+width: 100%;
+margin-top: -270px;
+
+}
+
+section h2 {
+	 font-size: 1.9em;
+	 text-align: left;
+	 color:#f7ba77;
+
+}
+
+section p {
+    font-size: .85em;
+	padding: 4px;
+	text-align: left;
+	font-size: 12pt;
+	color:#ffffff;
+}
+
+ #slider {
+	width:  98.958%;
+	height: 450px;
+	margin: 0 auto;
+}
+ 
+
+ .gallery {
+ 	width: 43.5%;
+ 	float: left;
+ 	margin: 1.2px;
+ 	padding: 10px 20px 5px 40px;
+ }
+
+ article img {
+
+ 	padding: 1.5px;
+ }
+
+ 
+ /* News Section CSS */
+
+ .news {
+
+ 	width: 100%;
+ 	margin: 0 auto;
+ 	padding: 10px;
+ 	float: left;
+ 	clear: both;
+ }
+
+ .news h3, h4 {
+        
+     font-size: 1.3em;
+	 text-align: left;
+	 color:#f7ba77; 
+
+ }
+
+/* TABS Plugin CSS by Jelle Kralt <jelle@jellekralt.nl> */
+ /* Tabs container */
+.r-tabs {
+	position: relative;
+    background-color: #000;
+
+}
+
+/* Tab element */
+.r-tabs .r-tabs-nav .r-tabs-tab {
+	position: relative;
+	background-color: #000;
+}
+
+/* Tab anchor */
+.r-tabs .r-tabs-nav .r-tabs-anchor {
+	display: inline-block;
+	padding: 10px 12px;
+
+	text-decoration: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+
+/* Disabled tab */
+.r-tabs .r-tabs-nav .r-tabs-state-disabled {
+	opacity: 0.5;
+}
+
+/* Active state tab anchor */
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+	color: #fff;
+	text-shadow: none;
+
+	background-color: #f7ba77;
+
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+/* Tab panel */
+.r-tabs .r-tabs-panel {
+	background-color: #000;
+	
+
+
+	 
+
+}
+
+/* Accordion anchor */
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+	display: block;
+	padding: 10px;
+
+	background-color: #000;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	font-size: 14px;
+
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+/* Active accordion anchor */
+.r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+	background-color: #fff;
+	color: #00c5ad;
+	text-shadow: none;
+}
+
+/* Disabled accordion button */
+.r-tabs .r-tabs-accordion-title.r-tabs-state-disabled {
+	opacity: 0.5;
+}
+
+ 
+
+ /* Contact page CSS */
+
+ .form {
+    width: 40%;
+ 	margin: 10px 0 20px 0;
+ 	float: left;
+  
+ }
+
+ .form p {
+     
+     font-size: 1em;
+ }
+
+ 
+
+
+input, textarea {
+    width: 100%;
+   /* height: 27px;*/
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top:20px;
+    font-size:0.9em;
+    color: #3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+.form-top {
+    color: #f7ba77;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    text-align: left;
+
+}
+
+#submit {
+    width: 100%;
+    height: 38px;
+    background: #909090;
+    font-size: 1.1em;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+
+ .contact-info {
+       
+    width: 40%;
+ 	margin: 0 auto;
+ 	padding: 10px;
+ 	float: right;
+     
+ }
+
+ .contact-info p {
+
+ 	font-size: 1.2em;
+ }
+
+  
+  
+
+ 
+
+/** Footer CSS starts here **/ 
+
+footer{
+	width: 100%;
+	border-top: solid 2px #f7ba77;
+    padding-left: : 20px;
+    
+	 
+	
+}
+
+footer a {
+
+	color: #fefefe;
+	text-decoration: none;
+	font-size: 10pt;
+}
+	 
+
+
+ #footerleft{
+    
+    width: 41.666%;
+	float: left;
+	margin: 20 10 5 0;
+	 
+}
+
+
+#footerleft ul li {
+	display: inline;
+	font-size: x-small;
+	font-color: #fefefe;
+	list-style: none;
+	margin: 3px;
+    padding-right: 10px;
+    border-right: 1px solid white;
+
+}
+
+#footerright{
+	width: 30.2083%;
+	float: right;
+	padding-top: 10px;
+	margin: 10px;
+    
+ }
+
+#footerright p{
+	font-size: x-small;
+	color: #ffffff;
+	text-align: left;
+
+}
+
+#footerright img{
+	float: left;
+}
+
+ /** That's all folks **/
